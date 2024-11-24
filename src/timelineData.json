@@ -1,0 +1,206 @@
+{
+    "grammar":[
+        {
+            "title":"Building blocks of Grammar",
+            "description":"Parts of Speech, Basic Sentence Structure",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"build-blocks"
+        },
+        {
+            "title":"Sentence Composition",
+            "description":"Clauses, Phrases and Complex Sentences",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"sentence-composition"
+        },
+        {
+            "title":"Tenses",
+            "description":"Tenses, Aspect and Verb Structure",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"tenses"
+        },
+        {
+            "title":"Modifiers and Descriptors",
+            "description":"Adjectives, Adverbs, and Prepositions",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"modifiers-descriptors"
+        },
+        {
+            "title":"Cohision and Style",
+            "description":"Connectors, Pronouns, and Emphasis",
+            "cards":2,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"cohision-styles"
+        },
+        {
+            "title":"Communication and Nuance",
+            "description":"Reported Speech, Idioms and Formal Language",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"grammar",
+            "subcategory":"communication"
+        }
+    ],
+    "phrases":[
+        {
+            "title":"Friendly",
+            "description":"Friendly and Informal",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"informal"
+        },
+        {
+            "title":"Business",
+            "description":"Business and Professional",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"business"
+        },
+        {
+            "title":"Debate",
+            "description":"Debate and Argumentative",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"debate"
+        },
+        {
+            "title":"Public Speaking",
+            "description":"Public Speaking and Presentation",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"public"
+        },
+        {
+            "title":"Negotiation",
+            "description":"Persuasive and Negotiation",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"negotiation"
+        },
+        {
+            "title":"Formal Writing",
+            "description":"Formal Writing and Official Communication",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"phrases",
+            "subcategory":"formal"
+        }
+    ],
+    "vocabulary":[
+        {
+            "title":"Friendly",
+            "description":"Friendly and Informal",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"informal"
+        },
+        {
+            "title":"Business",
+            "description":"Business and Professional",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"business"
+        },
+        {
+            "title":"Debate",
+            "description":"Debate and Argumentative",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"debate"
+        },
+        {
+            "title":"Public Speaking",
+            "description":"Public Speaking and Presentation",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"public"
+        },
+        {
+            "title":"Negotiation",
+            "description":"Persuasive and Negotiation",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"negotiation"
+        },
+        {
+            "title":"Formal Writing",
+            "description":"Formal Writing and Official Communication",
+            "cards":4,
+            "icon":{
+                "name":"FastfoodIcon",
+                "color":"primary"
+            },
+            "category":"vocabulary",
+            "subcategory":"formal"
+        }
+    ]
+}

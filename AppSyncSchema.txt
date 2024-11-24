@@ -1,0 +1,113 @@
+input CreateCardsummaryInput {
+	id: String!
+	category: String
+	subcategory: String
+	name: String
+	summary: String
+	examples: AWSJSON
+}
+
+input DeleteCardsummaryInput {
+	id: String!
+}
+
+input ModelSizeInput {
+	ne: Int
+	eq: Int
+	le: Int
+	lt: Int
+	ge: Int
+	gt: Int
+	between: [Int]
+}
+
+type Cardsummary {
+	id: String!
+	category: String
+	subcategory: String
+	name: String
+	summary: String
+	examples: AWSJSON
+}
+
+type CardsummaryConnection {
+	items: [Cardsummary]
+	nextToken: String
+}
+
+
+input TableCardsummaryFilterInput {
+	id: TableStringFilterInput
+	category: TableStringFilterInput
+	subcategory: TableStringFilterInput
+	name: TableStringFilterInput
+	summary: TableStringFilterInput
+}
+
+input TableStringFilterInput {
+	ne: String
+	eq: String
+	le: String
+	lt: String
+	ge: String
+	gt: String
+	contains: String
+	notContains: String
+	between: [String]
+	beginsWith: String
+	attributeExists: Boolean
+	size: ModelSizeInput
+}
+
+type Timeline {
+	id: String!
+	title: String
+	description: String
+	cards: String
+	category: String
+	subcategory: String
+	icon: AWSJSON
+}
+
+input CreateTimelineInput {
+	id: String!
+	title: String
+	description: String
+	cards: String
+	category: String
+	subcategory: String
+	icon: AWSJSON
+}
+input DeleteTimelineInput {
+	id: String!
+}
+
+input TableTimelineFilterInput {
+	id: TableStringFilterInput
+	title: TableStringFilterInput
+	description: TableStringFilterInput
+	cards: TableStringFilterInput
+	category: TableStringFilterInput
+	subcategory: TableStringFilterInput
+}
+
+type TimelineConnection {
+	items: [Timeline]
+	nextToken: String
+}
+
+
+type Mutation {
+	createCardsummary(input: CreateCardsummaryInput!): Cardsummary
+	deleteCardsummary(input: DeleteCardsummaryInput!): Cardsummary
+	createTimeline(input: CreateTimelineInput!): Timeline
+	deleteTimeline(input: DeleteTimelineInput!): Timeline
+}
+
+type Query {
+	getCardsummary(id: String!): Cardsummary
+	listCardsummaries(filter: TableCardsummaryFilterInput, limit: Int, nextToken: String): CardsummaryConnection
+	getTimeline(id: String!): Timeline
+	listTimelines(filter: TableTimelineFilterInput, limit: Int, nextToken: String): TimelineConnection
+}
+
