@@ -1,70 +1,29 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+**MyWord** was born out of a personal struggle to improve my English communication skills, particularly vocabulary and grammar. Over the years, I tried reading grammar books, storybooks, and watching movies, but these methods presented challenges:  
+- **Lost notes**: Often, the vocabulary and phrases I noted down were misplaced.  
+- **Context loss**: Revisiting the notes later, I struggled to recall the specific use cases of the phrases or vocabulary.  
+- **Portability**: Carrying physical notes everywhere was inconvenient.  
 
-## Available Scripts
+To overcome these hurdles, I envisioned a solution where users could effortlessly organize and access their vocabulary, grammar, and phrases from any device—be it a mobile phone or a computer.  
 
-In the project directory, you can run:
+Additionally, with the integration of AI assistance, MyWord enables users to create conversations using their chosen vocabulary, grammar, and phrases. The app even learns user preferences and recommends content tailored to their needs.
 
-### `npm start`
+## What it does
+MyWord is an AI-powered platform designed to enhance English learning through a structured, interactive, and personalized approach:  
+- **Content Organization**: Users can categorize and access vocabulary, grammar, and phrases seamlessly.  
+- **Interactive Learning**: With collapsible panels, users can focus on specific topics of interest. The app tracks user interactions to provide customized suggestions.  
+- **AI Assistant**: Enables users to simulate conversations using their selected vocabulary or grammar, making learning practical and engaging.  
+- **Cross-Device Access**: Accessible on mobile, desktop, and other devices for consistent learning on the go.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How we built it
+This solution was crafted using a combination of AWS services and modern frameworks:  
+- **AWS Amplify**: For hosting and UI components integration.  
+- **DynamoDB**: To store user data efficiently.  
+- **AWS Lambda**: To call the remote AI engine for generating conversations.  
+- **AWS Cognito**: For secure user authentication.  
+- **AWS API Gateway**: To handle URL redirections.  
+- **AWS AppSync**: For GraphQL integration with DynamoDB.  
+- **IAM**: To manage access controls and permissions.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
